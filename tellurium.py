@@ -351,6 +351,8 @@ def gillespie (r, *args, **kwargs):
 
     if kwargs is not None:
         kwargs['integrator'] = 'gillespie'
+    else:
+        kwargs = {'integrator' : 'gillespie'}
 
     result = r.simulate(*args, **kwargs)
 
