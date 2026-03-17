@@ -1,3 +1,5 @@
+![GitHub License](https://img.shields.io/github/license/hsauro/tellurium)
+
 tellurium
 Copyright 2014
 Michal Galdzicki, Herbert Sauro
